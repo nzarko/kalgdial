@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2005-10-13 15:59+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: src/kalgdialview.cpp:306
+msgid "KAlgDial"
+msgstr ""
+
+#: src/kalgdialview.cpp:307
+msgid "Connection Time :"
+msgstr ""
+
+#: src/kalgdialview.cpp:308
+msgid "00:00:00"
+msgstr ""
+
+#: src/kalgdialview.cpp:309
+msgid "Speed :"
+msgstr ""
+
+#: src/kalgdialview.cpp:310
+msgid "0 kb/s"
+msgstr ""
+
+#: src/kalgdialview.cpp:311
+msgid "Bytes in :"
+msgstr ""
+
+#: src/kalgdialview.cpp:312 src/kalgdialview.cpp:314 src/kalgdialview.cpp:316
+#: src/kalgdialview.cpp:318 src/kalgdialview.cpp:320
+msgid "0"
+msgstr ""
+
+#: src/kalgdialview.cpp:313
+msgid "Bytes out :"
+msgstr ""
+
+#: src/kalgdialview.cpp:315
+msgid "Total Bytes :"
+msgstr ""
+
+#: src/kalgdialview.cpp:317
+msgid "Packets in : "
+msgstr ""
+
+#: src/kalgdialview.cpp:319
+msgid "Packets out : "
+msgstr ""
+
+#: src/kalgdialview.cpp:439 src/dockwidget.cpp:131
+msgid "%1 kb/sec"
+msgstr ""
+
+#: src/dockwidget.cpp:62
+msgid "Connect"
+msgstr ""
+
+#: src/dockwidget.cpp:63 src/kalgdial.cpp:125
+msgid "Disconnect"
+msgstr ""
+
+#: src/dockwidget.cpp:175
+msgid "Minimize"
+msgstr ""
+
+#: src/main.cpp:30
+msgid "A KDE front end for pon and poff commands"
+msgstr ""
+
+#: src/main.cpp:44
+msgid "kalgdial"
+msgstr ""
+
+#: src/viewloginfobase.cpp:201 src/viewloginfobase.cpp:250 rc.cpp:10
+#, no-c-format
+msgid "Date"
+msgstr ""
+
+#: src/viewloginfobase.cpp:202 src/viewloginfobase.cpp:251 rc.cpp:12
+#, no-c-format
+msgid "Interface"
+msgstr ""
+
+#: src/viewloginfobase.cpp:203 src/viewloginfobase.cpp:252 rc.cpp:14
+#, no-c-format
+msgid "Start"
+msgstr ""
+
+#: src/viewloginfobase.cpp:204 src/viewloginfobase.cpp:253 rc.cpp:16
+#, no-c-format
+msgid "End"
+msgstr ""
+
+#: src/viewloginfobase.cpp:205 src/viewloginfobase.cpp:221
+#: src/viewloginfobase.cpp:254 src/viewloginfobase.cpp:260 rc.cpp:18 rc.cpp:30
+#, no-c-format
+msgid "Duration"
+msgstr ""
+
+#: src/viewloginfobase.cpp:206 src/viewloginfobase.cpp:222
+#: src/viewloginfobase.cpp:255 src/viewloginfobase.cpp:261 rc.cpp:20 rc.cpp:32
+#, no-c-format
+msgid "Bytes in"
+msgstr ""
+
+#: src/viewloginfobase.cpp:207 src/viewloginfobase.cpp:223
+#: src/viewloginfobase.cpp:256 src/viewloginfobase.cpp:262 rc.cpp:22 rc.cpp:34
+#, no-c-format
+msgid "Bytes out"
+msgstr ""
+
+#: src/viewloginfobase.cpp:208 src/viewloginfobase.cpp:224
+#: src/viewloginfobase.cpp:257 src/viewloginfobase.cpp:263 rc.cpp:24 rc.cpp:36
+#, no-c-format
+msgid "Total Bytes"
+msgstr ""
+
+#: src/viewloginfobase.cpp:220 src/viewloginfobase.cpp:259 rc.cpp:28
+#, no-c-format
+msgid "Dial Up"
+msgstr ""
+
+#: src/viewloginfobase.cpp:248 rc.cpp:6
+#, no-c-format
+msgid "Log View"
+msgstr ""
+
+#: src/viewloginfobase.cpp:249 rc.cpp:8
+#, no-c-format
+msgid "Log records for month :"
+msgstr ""
+
+#: src/viewloginfobase.cpp:258 rc.cpp:26
+#, no-c-format
+msgid "<b>Statistics :</b>"
+msgstr ""
+
+#: src/kalgdial.cpp:78 src/kalgdial.cpp:150
+msgid "Connection established at %1"
+msgstr ""
+
+#: src/kalgdial.cpp:87
+msgid ""
+"Local IP Address : %1 \n"
+"Remote IP Address : %2\n"
+msgstr ""
+
+#: src/kalgdial.cpp:121
+msgid "Connect "
+msgstr ""
+
+#: src/kalgdial.cpp:128
+msgid "View Log"
+msgstr ""
+
+#: src/kalgdial.cpp:177
+msgid "Connection terminated at %1"
+msgstr ""
+
+#: src/kalgdial.cpp:185
+msgid "Log file wrote"
+msgstr ""
+
+#: src/kalgdial.cpp:190
+msgid "Error!!! Can't write to log file"
+msgstr ""
+
+#: src/kalgdial.cpp:230
+msgid ""
+"<qt>Closing the main-window will keep kalgdial running in the System Tray. "
+"Use <B>Quit</B> from the menu, or the kalgdial tray-icon to exit the "
+"application.</qt>"
+msgstr ""
+
+#: src/kalgdial.cpp:232
+msgid "Docking in System Tray"
+msgstr ""
+
+#: src/kalgdial.cpp:243
+msgid "There is an interface online. Do you want to shutdown this interface?"
+msgstr ""
+
+#: src/kalgdial.cpp:244
+msgid "Question"
+msgstr ""
+
+#: src/kalgdial.cpp:247
+msgid "You can shutdown your connection with poff command!"
+msgstr ""

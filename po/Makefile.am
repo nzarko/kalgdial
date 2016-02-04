@@ -1,0 +1,3 @@
+POFILES = AUTO
+
+SUBDIRS = el

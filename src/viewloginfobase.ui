@@ -1,0 +1,284 @@
+<!DOCTYPE UI><UI version="3.3" stdsetdef="1">
+<class>ViewLogInfoBase</class>
+<widget class="QWidget">
+    <property name="name">
+        <cstring>ViewLogInfoBase</cstring>
+    </property>
+    <property name="geometry">
+        <rect>
+            <x>0</x>
+            <y>0</y>
+            <width>600</width>
+            <height>480</height>
+        </rect>
+    </property>
+    <property name="caption">
+        <string>Log View</string>
+    </property>
+    <property name="icon">
+        <pixmap>image0</pixmap>
+    </property>
+    <vbox>
+        <property name="name">
+            <cstring>unnamed</cstring>
+        </property>
+        <property name="margin">
+            <number>0</number>
+        </property>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout9</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLayoutWidget">
+                    <property name="name">
+                        <cstring>layout8</cstring>
+                    </property>
+                    <hbox>
+                        <property name="name">
+                            <cstring>unnamed</cstring>
+                        </property>
+                        <widget class="QLabel">
+                            <property name="name">
+                                <cstring>m_infoLabel</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>0</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                            <property name="text">
+                                <string>Log records for month :</string>
+                            </property>
+                        </widget>
+                        <widget class="KComboBox">
+                            <property name="name">
+                                <cstring>m_logCB</cstring>
+                            </property>
+                            <property name="sizePolicy">
+                                <sizepolicy>
+                                    <hsizetype>7</hsizetype>
+                                    <vsizetype>0</vsizetype>
+                                    <horstretch>0</horstretch>
+                                    <verstretch>0</verstretch>
+                                </sizepolicy>
+                            </property>
+                        </widget>
+                    </hbox>
+                </widget>
+                <widget class="KListView">
+                    <column>
+                        <property name="text">
+                            <string>Date</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Interface</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Start</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>End</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Duration</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Bytes in</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Bytes out</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Total Bytes</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <property name="name">
+                        <cstring>m_logLV</cstring>
+                    </property>
+                    <property name="allColumnsShowFocus">
+                        <bool>true</bool>
+                    </property>
+                    <property name="resizeMode">
+                        <enum>AllColumns</enum>
+                    </property>
+                </widget>
+            </vbox>
+        </widget>
+        <widget class="QLayoutWidget">
+            <property name="name">
+                <cstring>layout12</cstring>
+            </property>
+            <vbox>
+                <property name="name">
+                    <cstring>unnamed</cstring>
+                </property>
+                <widget class="QLabel">
+                    <property name="name">
+                        <cstring>textLabel2</cstring>
+                    </property>
+                    <property name="sizePolicy">
+                        <sizepolicy>
+                            <hsizetype>5</hsizetype>
+                            <vsizetype>0</vsizetype>
+                            <horstretch>0</horstretch>
+                            <verstretch>0</verstretch>
+                        </sizepolicy>
+                    </property>
+                    <property name="text">
+                        <string>&lt;b&gt;Statistics :&lt;/b&gt;</string>
+                    </property>
+                </widget>
+                <widget class="KListView">
+                    <column>
+                        <property name="text">
+                            <string>Dial Up</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Duration</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Bytes in</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Bytes out</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <column>
+                        <property name="text">
+                            <string>Total Bytes</string>
+                        </property>
+                        <property name="clickable">
+                            <bool>true</bool>
+                        </property>
+                        <property name="resizable">
+                            <bool>false</bool>
+                        </property>
+                    </column>
+                    <property name="name">
+                        <cstring>m_logTotalLV</cstring>
+                    </property>
+                    <property name="maximumSize">
+                        <size>
+                            <width>32767</width>
+                            <height>150</height>
+                        </size>
+                    </property>
+                    <property name="resizeMode">
+                        <enum>AllColumns</enum>
+                    </property>
+                </widget>
+            </vbox>
+        </widget>
+    </vbox>
+</widget>
+<images>
+    <image name="image0">
+        <data format="PNG" length="1696">89504e470d0a1a0a0000000d49484452000000220000002208060000003a470bc200000667494441545885cd97516c1c4719c77f3e8fede979e38ced4db28d4ee9363aa123ba842b0a6d844c14f1509d820b168dc011a930958b2ce8431efa60a43ca4888780108a2a242c64893c04a8a048468aa088a8322842a6b8cd2a3a8925b990557a0ddb66b1b7eec68ccf73773c5c1de2c6f63946157c2fbb339a19fde63fdff7cd7cf07f626d5b99944a89c65afdf5bad9d27a0f0cb202f0e35703e6a218a33571020901162edf3f7968cb409b9ab002f0d2f98ba46d0b6372f45992586bfa548c4c3c6221b9580af13d8f99c9b30f0c243603f1d2f98bf48888423e83118ac408960c648464118d1fc4a88c4b14682c4751181d43c721fe2b538dcdc2b4b782183f3bce138fefe1d3878ad83b14694b2248a1fa02ae871ad563514f1b762889ae06d86987e1cf16994fa550fb72bcf5e7d74f371af517ff6b45f2078b64332e7db2d94eb783dc01d54606777744520d49ab0050140a9292eff327bf8c9009b6f436234673d31ba9f1fc0f4374a5804e1473bad9bf9868c2b702ae943ed8830cb012858522343e9538a45411289d436997a343c575a3ec5edb5011c7965876f3bf9a24dcd4162681255ca48a49521e95b2c42fe738500890da25a34248622ca1d993c9d12f2c7eb30945d6f491544a34064667e8e974782cd7c97c5520e864ee0e2cd6040b0b6008496358ac66d175c5db73f0c7e92c71e2d2230c870f48baa4e0b27f95270a07b97cf9ca86beb2ae225207a401bf9c4358d0b0256d12b6093006da8c8bb2348eed317810c2b8801e8809c3905220f14a9710daa64f4225085b2ab22e88501223200935c66efe0ba3c93992050d7b77874819604b2009b1f534c68444814712c4c4c6e18353c5b69dad83140f6a2ccba71cba043e64b20092473390b234b99d1e292a004495e657580e9605588a8aa7312224b4345416b70ef2aae7317824c727f31516758e4ab91936ff7024da402a5fa1138baad00461cca55280a980b235d97c8e306f23424374d5c3a673eb20269966f242cce040ccc09184ab7e814a2051162442734b5be8c8e3950b11972fde667fe1311c7737deec9bdcbe74833b8e875954ecee5144a5a025c8bae93795128de1178a640a0e7636242c0f1307c31c1d802ba147e29fe3c6ec0d3e37f8344f169f248e238ca961dbbb082b21bf9c3a4fd9bfc6af2ffc0e687def6c98479454942ece60870ebe97c392f08b708ae5e0271c3f769ce3c5110082c0bf3be7bd789eedaa97674e8cb0a40dc05d982d29b2a2cad8a961b4864ae910dde2b77c6bfc45846c2349e65b2e5e3360598a471e7571763523673d655a820c148fd02fba7866e46b641c176de296001f8601d8ae7ae9b6b6f3f15c6e4da00d7de4f12387f8c177be87945d9b52602313224dbfbd938538c62ffb7cf5c4c82a98fb7c64e5829a9a9ac2b6fbe8109d5b86a8196817e0ba396a66896be51b5c2979a465fa7ed07b1bfbf6e51b2746bec2f1635fa27bdb76e6e7636e5502da5b3e16d606e8b76dfa1c976ba559ae976f321fcfd1253be892f7e795554793d9e336a414f42ac5d8d8184f3d358459d684e13b2d5559f185760196d54baf52dc0ee7f9c3a569ba64c77f762e9a20cf8d8ead3a9a55b76f4fbf7d3a7f20c7670e1fe6e59ffd9c5bb7021e7632e4f39fa0564ff1cf28a60d48ddf38aa919a85661a9ba4cafea27937179f7dd0a6fbce9f1b7b24f57670755b34cad5ea7ab53b24df5f0ecc8e8c6ce9ad9e336be3e34c8b8d68c5e9ae1aaa3a8259a2f0f0ff3d4e0100f494914bd4314cdb36c96a9991a524aa40427e3f27610f086e7f15eb2c043a213443b1d74d0262025252f3c7f12583b845775ecdb976fecb115cf564266f6ba9cf8e21093933fc5b7bb793f8e796ee42427468e114511d7cb3e96a5b0ed5eaaa6c1ebb333dc28ff9d650c1d0896314d18e0d4a9d3eb02ac090290d99b6d7c5eed40f675337e3360c268b2e3e394a62ef09a4e3890cdf185a1a7d99fdf0fc0ecec0cbeefa3b5e65f3a4108c192d6b40b811082ef9e39bba9b262cd012b213c56f81451f661ce8834c1f434bf1a2af27e39e0af71ccae8cc3238e43979020a05d086ac6d02e04dbac3e4e9ffe764b155a82ac05a49d6e8e158be427ce31a114bf379ae2e051eec47377c77749c9421cf3a389730f5ced6d982156169bf0fed20070628d05a02c88346da67e578924d19c3d3bb16ade83d8bae5c48781ea75d37666668697e5367c65712769fa04c092d64c4e9ebb3bee4121b6647d3bed462a251ad98f651bdffcc6682395128dcdd42d1f99fdcf013e2afb3719fbe5ddb2fb72dc0000000049454e44ae426082</data>
+    </image>
+</images>
+<layoutdefaults spacing="6" margin="11"/>
+<includehints>
+    <includehint>kcombobox.h</includehint>
+    <includehint>klistview.h</includehint>
+    <includehint>klistview.h</includehint>
+</includehints>
+</UI>

@@ -1,0 +1,16 @@
+Begin3
+Title:          kalgdial -- Some description
+Version:        0.99
+Entered-date:   
+Description:    
+Keywords:       KDE Qt
+Author:         Nikos Zarkadas <nzarko@acn.gr>
+Maintained-by:  Nikos Zarkadas <nzarko@acn.gr>
+Home-page:      
+Alternate-site: 
+Primary-site:   ftp://ftp.kde.org/pub/kde/unstable/apps/utils
+                xxxxxx  kalgdial-0.99.tar.gz
+                xxx     kalgdial-0.99.lsm
+Platform:       Linux. Needs KDE
+Copying-policy: GPL
+End

@@ -1,0 +1,24 @@
+2005-10-02		Nikos Zarkadas	nzarko@acn.gr
+	* Added statistics to log view.
+
+2005-10-01		Nikos Zarkadas  nzarko@acn.gr
+	* kalgdial now writes log files in local kde dir (under
+	  $HOME/.kde/share/apps/kalgdial/Log). The user is able to see
+	  that logs by simply clicking the Log View menu entry.
+	  
+2005-09-23		Nikos Zarkadas  nzarko@acn.gr
+	* Project kzdial renamed to kalgdial
+	* Added better control of dial up by checking the state 
+	  of ppp interface in better way. Also the user has much more 
+	  information for the interface state.
+	  
+2005-06-10 		Nikos Zarkadas 	nzarko@acn.gr
+	* Added menu bar and toolbar with connect and disonnect actions
+	* Added more info in the main_view
+	* kzdialview.cpp : Added labels in main_view for connection speed, bytes in, bytes out,
+		total bytes, packages in, packages out.
+	* dockwidget.cpp: Added the connection speed info in tool tip.
+	* utils.cpp, kzdial.cpp: Now the application can determine better the state of the connection.
+		Added a few lines of code in utils.cpp::pppdRunning() and kzdial.cpp::if_timer_slot() so the user 
+		knows now exactly the state of the connection.
+	* The hall project added to the SVN_Repository in home dir.
